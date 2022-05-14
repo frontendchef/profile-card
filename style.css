@@ -5,8 +5,6 @@
 body,
 p {
   margin: 0;
-  padding: 0;
-  font-weight: normal;
 }
 
 a {
@@ -27,28 +25,26 @@ body {
   width: min-content;
   border-radius: 75px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  overflow: hidden;
+  overflow: hidden; /*Later*/
 
   text-align: center;
 }
 
 .card__media-container {
-  position: relative;
+  position: relative; /*Later*/
 
   display: grid;
   place-items: center;
 
+  height: 200px;
   margin-bottom: 1rem;
   background: linear-gradient(#f60089, #ff1744);
-  height: 200px;
 }
 
 .card__image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  object-position: top;
-  object-fit: cover;
 }
 
 .card__wave {
