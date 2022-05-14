@@ -3,18 +3,15 @@
 }
 
 body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul {
+p {
   margin: 0;
   padding: 0;
   font-weight: normal;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
 }
 
 body {
@@ -81,14 +78,13 @@ body {
   justify-content: center;
 }
 
-.fa-brands {
+.card__link {
   padding: 1.5rem;
   font-size: 1.25rem;
-
   transition: color 0.2s ease;
 }
 
-.fa-brands:hover {
+.card__link:hover {
   cursor: pointer;
   color: #ff1744;
 }
