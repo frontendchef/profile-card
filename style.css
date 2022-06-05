@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -25,13 +27,13 @@ body {
   width: min-content;
   border-radius: 75px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-  overflow: hidden; /*Later*/
+  overflow: hidden;
 
   text-align: center;
 }
 
-.card__media-container {
-  position: relative; /*Later*/
+.card__media {
+  position: relative;
 
   display: grid;
   place-items: center;
